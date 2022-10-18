@@ -42,11 +42,11 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		78A4FBE99501B648828340DE /* Pods-NetworkHydra_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkHydra_Tests.release.xcconfig"; path = "Target Support Files/Pods-NetworkHydra_Tests/Pods-NetworkHydra_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9537A3A873C52B9645F85686 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9537A3A873C52B9645F85686 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A95F88D771017D2BC3C7826D /* Pods_NetworkHydra_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetworkHydra_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C121E17D8569F31C2087BCC7 /* NetworkHydra.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NetworkHydra.podspec; path = ../NetworkHydra.podspec; sourceTree = "<group>"; };
+		C121E17D8569F31C2087BCC7 /* NetworkHydra.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NetworkHydra.podspec; path = ../NetworkHydra.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F6D1962F933171A8ED51CFE6 /* Pods-NetworkHydra_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkHydra_Example.debug.xcconfig"; path = "Target Support Files/Pods-NetworkHydra_Example/Pods-NetworkHydra_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F6F821B1BC48B768D38637AD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F6F821B1BC48B768D38637AD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +86,6 @@
 				00B4112F720C56B29F4D4561 /* Pods-NetworkHydra_Tests.debug.xcconfig */,
 				78A4FBE99501B648828340DE /* Pods-NetworkHydra_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

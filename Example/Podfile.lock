@@ -1,0 +1,27 @@
+PODS:
+  - NetworkHydra (0.1.0)
+  - Nimble (10.0.0)
+  - Quick (2.2.1)
+
+DEPENDENCIES:
+  - NetworkHydra (from `../`)
+  - Nimble (~> 10.0.0)
+  - Quick (~> 2.2.0)
+
+SPEC REPOS:
+  trunk:
+    - Nimble
+    - Quick
+
+EXTERNAL SOURCES:
+  NetworkHydra:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NetworkHydra: 8f40ebcd0b6f4eebc844fb24726a67994ad59181
+  Nimble: 5316ef81a170ce87baf72dd961f22f89a602ff84
+  Quick: f5754d69b7013f5864c29aab9ae6f0c79c5bc200
+
+PODFILE CHECKSUM: bf82f8be3722fd0bff123dc71e7563e7ecf9a449
+
+COCOAPODS: 1.11.3
